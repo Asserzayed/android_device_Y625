@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_l70pn.mk
+    $(LOCAL_DIR)/full_Y625.mk
