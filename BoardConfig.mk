@@ -21,19 +21,17 @@
 # definition file).
 #
 
--include device/lge/msm8610-common/BoardConfigCommon.mk
+-include device/huawei/msm8610-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := l70pn_global_com_defconfig
-BOARD_CUSTOM_BOOTIMG_MK := device/lge/l70pn/mkbootimg.mk
+
 
 DEVICE_RESOLUTION := 480x800
 
-TARGET_OTA_ASSERT_DEVICE := l70pn
+TARGET_OTA_ASSERT_DEVICE := Y625
 
-# Nfc
-BOARD_NFC_CHIPSET := pn547
+
 
 #TWRP
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 
--include vendor/lge/l70pn/BoardConfigVendor.mk
+-include vendor/huawei/Y625/BoardConfigVendor.mk
