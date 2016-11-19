@@ -7,6 +7,6 @@ TARGET_SCREEN_HEIGHT := 854
 
 # Release name
 PRODUCT_RELEASE_NAME := Y625
-PRODUCT_NAME := cm_l70pn
+PRODUCT_NAME := cm_Y625
 
-$(call inherit-product, device/lge/l70pn/full_l70pn.mk)
+$(call inherit-product, device/huawei/Y625/full_Y625.mk)
