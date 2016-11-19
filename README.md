@@ -12,9 +12,8 @@ Initialize repo:
 
     repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
 
-    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L 
-    
-    
+    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L hhttps://raw.githubusercontent.com/Asserzayed/android_local_manifest/master/local_manifest.xml
+
     repo sync
     
 Compile:
